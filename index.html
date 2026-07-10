@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stitch — Combine Clips</title>
+<meta name="description" content="Put clips in a row and export. No subscription. No account. No watermark. No data collected. $3.99, once.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='1024' height='1024' fill='%2316171C'/%3E%3Crect x='-40' y='262' width='512' height='500' rx='34' fill='%23F2F2F5'/%3E%3Crect x='552' y='262' width='512' height='500' rx='34' fill='%23F2F2F5'/%3E%3Cpath d='M 466 300 L 558 392 L 466 484 L 558 576 L 466 668 L 558 760' fill='none' stroke='%23FFAE34' stroke-width='27' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+  :root { color-scheme: dark; }
+  * { margin: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(#1E1F26, #101014);
+    color: #F2F2F5;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 24px 96px; }
+  .icon { width: 96px; height: 96px; border-radius: 22.37%; display: block; margin: 24px 0; outline: 1px solid #3A3B44; }
+  h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; }
+  .tagline { font-size: 1.25rem; color: #C9C9CF; margin-top: 4px; }
+  .manifesto {
+    margin: 28px 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #FFAE34;
+  }
+  .badge {
+    display: inline-block;
+    margin: 4px 0 40px;
+    padding: 10px 18px;
+    border: 1px solid #3A3B44;
+    border-radius: 10px;
+    color: #C9C9CF;
+    font-size: 0.95rem;
+  }
+  h2 { font-size: 1.15rem; margin: 40px 0 10px; letter-spacing: -0.01em; }
+  ul { padding-left: 1.2em; color: #C9C9CF; }
+  li { margin: 6px 0; }
+  p  { color: #C9C9CF; margin: 10px 0; }
+  strong { color: #F2F2F5; }
+  .price { color: #FFAE34; font-weight: 600; }
+  hr { border: none; border-top: 1px solid #2A2B33; margin: 48px 0; }
+  a { color: #FFAE34; }
+  footer { font-size: 0.85rem; color: #6E6F78; margin-top: 48px; }
+</style>
+</head>
+<body>
+<main>
+  <svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stitch app icon">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#1E1F26"/><stop offset="100%" stop-color="#101014"/>
+      </linearGradient>
+      <mask id="holes">
+        <rect width="1024" height="1024" fill="white"/>
+        <g fill="black">
+          <rect x="-16" y="294" width="40" height="40" rx="12"/><rect x="72" y="294" width="40" height="40" rx="12"/><rect x="160" y="294" width="40" height="40" rx="12"/><rect x="248" y="294" width="40" height="40" rx="12"/><rect x="336" y="294" width="40" height="40" rx="12"/><rect x="418" y="294" width="40" height="40" rx="12"/><rect x="566" y="294" width="40" height="40" rx="12"/><rect x="654" y="294" width="40" height="40" rx="12"/><rect x="742" y="294" width="40" height="40" rx="12"/><rect x="830" y="294" width="40" height="40" rx="12"/><rect x="918" y="294" width="40" height="40" rx="12"/><rect x="1000" y="294" width="40" height="40" rx="12"/>
+          <rect x="-16" y="690" width="40" height="40" rx="12"/><rect x="72" y="690" width="40" height="40" rx="12"/><rect x="160" y="690" width="40" height="40" rx="12"/><rect x="248" y="690" width="40" height="40" rx="12"/><rect x="336" y="690" width="40" height="40" rx="12"/><rect x="418" y="690" width="40" height="40" rx="12"/><rect x="566" y="690" width="40" height="40" rx="12"/><rect x="654" y="690" width="40" height="40" rx="12"/><rect x="742" y="690" width="40" height="40" rx="12"/><rect x="830" y="690" width="40" height="40" rx="12"/><rect x="918" y="690" width="40" height="40" rx="12"/><rect x="1000" y="690" width="40" height="40" rx="12"/>
+        </g>
+      </mask>
+    </defs>
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <g mask="url(#holes)">
+      <rect x="-40" y="262" width="512" height="500" rx="34" fill="#F2F2F5"/>
+      <rect x="552" y="262" width="512" height="500" rx="34" fill="#F2F2F5"/>
+    </g>
+    <path d="M 466 300 L 558 392 L 466 484 L 558 576 L 466 668 L 558 760" fill="none" stroke="#FFAE34" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+  <h1>Stitch</h1>
+  <p class="tagline">Put clips in a row and export. That's the entire app.</p>
+  <p class="manifesto">No subscription. No account. No watermark. No data collected. $3.99, once.</p>
+  <!-- TODO: replace with App Store badge + link at launch -->
+  <span class="badge">Coming soon to the App Store</span>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Pick photos and videos together — they line up in the order you pick them</li>
+    <li>Drag to reorder on a filmstrip timeline; preview exactly what you'll export</li>
+    <li>Cut like tape: split at the playhead, delete the piece you don't want, undo anything</li>
+    <li>Auto-cut: one tap fits everything into 10, 30, or 60 seconds — computed on your phone, not a server</li>
+    <li>Fit or Fill: whole frame with clean bars, or edge-to-edge</li>
+    <li>Export a portrait 1080×1920 MP4 straight to your photo library</li>
+  </ul>
+
+  <h2>What it will never do</h2>
+  <p>No transitions, filters, stickers, text overlays, or effects packs. No "Pro" tier where those show up later. If you need them, you already know where to find them — Stitch is for when you don't.</p>
+
+  <h2>Why <span class="price">$3.99, once</span></h2>
+  <p>Because that's the entire business model. You pay once, you own it, and every feature works forever. There is nothing to unlock and no reason to nag you — the app can't even phone home, because it has no network access at all.</p>
+
+  <hr>
+
+  <h2 id="privacy">Privacy policy</h2>
+  <p><strong>Stitch collects nothing.</strong> It has no network access — your photos and videos are processed on your device and never leave it. No analytics, no accounts, no identifiers, no third-party code. The App Store privacy label reads "Data Not Collected" because there is no code that could.</p>
+  <p>Effective date: 2026. This policy can only ever get shorter.</p>
+
+  <h2 id="support">Support</h2>
+  <!-- TODO: replace with the dedicated support alias once Simon creates it -->
+  <p>Questions or trouble? Email <a href="mailto:SUPPORT-EMAIL-TBD">SUPPORT-EMAIL-TBD</a> and a human (the only human — the developer) will reply.</p>
+
+  <footer>© 2026 Simon MacIntyre. Stitch is an independent app. Apple and the App Store are trademarks of Apple Inc.</footer>
+</main>
+</body>
+</html>
